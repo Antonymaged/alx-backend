@@ -7,7 +7,7 @@ function setNewSchool(schoolName, value) {
 }
 
 function displaySchoolValue(schoolName) {
-	client.get(schoolName, (err, res) => {
+	client.GET(schoolName, (err, res) => {
 		if(err){
 			console.log(err)
 		} else {
